@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
   <head>
     <title>Desafio HTML</title>
   </head>
 
   <body>
-    <h1>Conhecendo o HTML</h1>
+    <h1>Conhecendo o <mark>HTML</mark></h1>
     <h2>O que é HTML?</h2>
     <p>
       O HTML existe desde 1991 e atualmente está na versão 5, que veio recheada
@@ -20,11 +21,354 @@
     <h2>O que é TAG?</h2>
     <p>
       As tags são formadas por uma estrutura própria, iniciam com o sinal
-      <i>“menor que”</i> , em seguida vem o nome daquele elemento e por fim, o
-      sinal <i>“maior que</i>”. Podem ser dispostas em tags que precisam de
+      <em>“menor que”</em> , em seguida vem o nome daquele elemento e por fim, o
+      sinal <em>“maior que</em>”. Podem ser dispostas em tags que precisam de
       fechamento e tags que fecham sozinhas (self-closing). O fechamento de uma
       tag será definido com uma barra (/), sendo que no caso das tags de auto
       fechamento, não há necessidade da presença desse caractere.
     </p>
+    <hr />
+
+    <h3>Principais <u>tags</u></h3>
+    <h5 id="indice">ÍNDICE:</h5>
+    <ol>
+      <li>
+        <code><a href="#html">html</a></code>
+      </li>
+      <li>
+        <code><a href="#body">body</a></code>
+      </li>
+      <li>
+        <code><a href="#head">head</a></code>
+      </li>
+      <li>
+        <code><a href="#title">title</a></code>
+      </li>
+      <li>
+        <code><a href="#meta">meta</a></code>
+      </li>
+      <li>
+        <code><a href="#p">p</a></code>
+      </li>
+      <li>
+        <code><a href="#h1">h1</a></code>
+      </li>
+      <li>
+        <code><a href="#h2">h2</a></code>
+      </li>
+      <li>
+        <code><a href="#h3">h3</a></code>
+      </li>
+      <li>
+        <code><a href="#h4">h4</a></code>
+      </li>
+      <li>
+        <code><a href="#h5">h5</a></code>
+      </li>
+      <li>
+        <code><a href="#h6">h6</a></code>
+      </li>
+      <li>
+        <code><a href="#mark">mark</a></code>
+      </li>
+    </ol>
+    <details>
+      <summary id="html">
+        <code><strong>html</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir um documento HTML.</code></p>
+        </li>
+        <li>
+          <p><code>Está é a tag raiz da estrutura do documento.</code></p>
+        </li>
+        <li>
+          <p>
+            <code>
+              Com exceção do DOCTYPE todas as tags são filhas ou descendentes da
+              tag
+              <strong>html</strong>
+            </code>
+          </p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="body">
+        <code><strong>body</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir o corpo do documento.</code></p>
+        </li>
+        <li>
+          <p>
+            <code>Todo conteúdo da página deve estar dentro da tag
+              <strong>body</strong>.</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>HTML5 Todos atributos de layout foram removidos no
+              <strong>HTML5</strong>.
+            </code>
+          </p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="head">
+        <code><strong>head</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p>
+            <code>Tag usada para definir o cabeçalho do documento HTML.</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>Esta tag serve como contêiner para as tags de cabeçalho.</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>
+              Dentro desta tag pode ser incluído o
+              <strong>título do documento, estilos, scripts, meta informações e
+                etc.</strong>
+            </code>
+          </p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="title">
+        <code><strong>title</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir o título do documento HTML.</code></p>
+        </li>
+        <li>
+          <p>
+            <code>Esta tag deve ser usada dentro da tag head.</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>O título da página normalmente é visto na aba do navegador.</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>O título também é apresentado quando o usuário adiciona a página nos favoritos.</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>O título é importante para mecanismos de pesquisas.</code>
+          </p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="meta">
+        <code><strong>meta</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir um metadado da página.</code></p>
+        </li>
+        <li>
+          <p>
+            <code>Os metadados são usados pelos navegadores, mecanismos de pesquisa e outros serviços da web.</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>
+              Os metadados devem ficar dentro da tag
+              <strong>head</strong>.
+            </code>
+          </p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="p">
+        <code><strong>p</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir um parágrafo.</code></p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="h1">
+        <code><strong>h1</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir o primeiro cabeçalho mais importante da página.</code></p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="h2">
+        <code><strong>h2</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir o segundo cabeçalho mais importante da página.</code></p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="h3">
+        <code><strong>h3</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir o terceiro cabeçalho mais importante da página.</code></p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="h4">
+        <code><strong>h4</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir o quarto cabeçalho mais importante da página.</code></p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="h5">
+        <code><strong>h5</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir o quinto cabeçalho mais importante da página.</code></p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="h6">
+        <code><strong>h6</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir o sexto cabeçalho mais importante da página.</code></p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
+
+    <details>
+      <summary id="mark">
+        <code><strong>mark</strong></code>
+      </summary>
+      <ul>
+        <li>
+          <p><code>Tag usada para definir um texto marcado.</code></p>
+        </li>
+        <li>
+          <p><code>Use a tag <strong>mark</strong> para destacar partes do texto.</code></p>
+        </li>
+      </ul>
+      <span>
+        <small>
+          <a href="#indice"><samp>voltar ao índice</samp></a>
+        </small>
+      </span>
+    </details>
+    <br />
   </body>
+
 </html>
